@@ -1,0 +1,39 @@
+.productRow {
+  margin: auto;
+  max-width: 60%;
+}
+
+.productList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5rem;
+  row-gap: 3em;
+}
+
+.productFlex-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.productFlex-2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.addToCart-btn {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: grey;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
