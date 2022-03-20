@@ -17,3 +17,9 @@
 .headerDiv {
   position: relative;
 }
+
+@media screen and (max-width: 768px) {
+  .sunImg {
+    display: none;
+  }
+}

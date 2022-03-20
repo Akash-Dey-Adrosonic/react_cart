@@ -55,3 +55,25 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .summaryCartRow {
+    margin: auto;
+    max-width: 80%;
+  }
+  .productList {
+    grid-template-columns: 1fr;
+  }
+  .totalSummaryFlex {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .summaryCart-Flex1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+  }
+  .flexCol {
+    width: 100%;
+  }
+}

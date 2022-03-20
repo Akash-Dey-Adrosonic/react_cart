@@ -2,7 +2,7 @@ import React from "react";
 
 const DummyPagination = () => {
   return (
-    <div style={{ margin: "auto", maxWidth: "60%", textAlign: "center" }}>
+    <div className="paginationDiv">
       <ul className="paginate">
         <li>
           <a href="#" className="first-page">
